@@ -26,7 +26,10 @@ knowledge in Reactjs we used Vite to start our project.
 
 ```js
     //Clone the project
-    git clone
+    git clone https://github.com/mauriciogirardi/Feed.git
+    
+    // Open folder
+    cd Feed
 
     // To install project dependencies
     npm i
