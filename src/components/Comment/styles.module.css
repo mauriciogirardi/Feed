@@ -1,0 +1,84 @@
+.comment {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.comment_box {
+  flex: 1;
+}
+
+.comment_content {
+  background-color: var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.comment_content > header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.comment_content header > button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--gray-400);
+  transition: color 0.2s;
+  line-height: 0;
+  border-radius: 2px;
+  transition: color 0.2s;
+}
+
+.comment_content header > button:hover {
+  color: var(--red-700);
+}
+
+.author_time strong {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.6rem;
+  color: var(--gray-100);
+}
+
+.author_time strong > span {
+  color: var(--gray-400);
+}
+
+.author_time time {
+  display: block;
+  font-size: 0.75rem;
+  line-height: 1.6rem;
+  color: var(--gray-400);
+}
+
+.comment_content p {
+  margin-top: 1rem;
+  color: var(--gray-300);
+}
+
+.comment_box > footer button {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  color: var(--gray-400);
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  transition: color 0.2s;
+  border-radius: 2px;
+}
+
+.comment_box > footer button:hover {
+  color: var(--green-400);
+}
+
+.comment_box > footer button svg {
+  margin-right: 0.5rem;
+}
+
+.comment_box > footer button > span::before {
+  content: '\2022';
+  padding: 0 0.25rem;
+}
