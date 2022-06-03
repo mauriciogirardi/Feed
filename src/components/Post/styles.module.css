@@ -98,7 +98,7 @@
   max-height: none;
 }
 
-.content_form button:hover {
+.content_form button:not(:disabled):hover {
   background-color: var(--green-400);
 }
 
