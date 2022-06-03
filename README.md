@@ -11,6 +11,7 @@ knowledge in Reactjs we used Vite to start our project.
 
 <br/>
 <br/>
+https://feed-mauriciogirardi.vercel.app/
     <img src="/.github/video.gif"/>
 <br/>
 <br/>
