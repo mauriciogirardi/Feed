@@ -9,6 +9,12 @@
 Created a Feed like the one on Linkedin Facebook or Instagram to strengthen
 knowledge in Reactjs we used Vite to start our project.
 
+<br/>
+<br/>
+    <img src="/.github/video.gif"/>
+<br/>
+<br/>
+
 #### Technologies
 
 - Vite
